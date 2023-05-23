@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.form-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.form-add input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.form-add button {
+  padding: 8px 16px;
+  background-color: blueviolet;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.form-add button:hover {
+  cursor: pointer;
+  background-color: darkviolet;
+  color: white;
+}
+
+.filter-container {
+  display: flex;
+  gap: 10px;
+  margin: 50px 0;
+}
+
+.filter-button {
+  padding: 8px 16px;
+  background-color: #333;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+.filter-button:hover {
+  background-color: #181818;
+}
+
+.filter-button.active {
+  background-color: #016064;
+}
+
+.filter-button.active:hover {
+  background-color: #013e41;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.data-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  overflow:auto;
+  width: 400px;
+}
+
+.kedua{
+  margin-left: auto;
+}
+
+.data-checkbox {
+  margin-right: 20px;
+}
+
+.form-edit{
+  display: flex;
+}
+
+.kedua{
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+}
+
+span{
+  text-align: left;
+  font-weight: 500;
+}
+
+.form-edit input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.button-update {
+  padding: 8px 16px;
+  background-color: #016064;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button-update:hover {
+  cursor: pointer;
+  background-color: #013e41;
+}
+
+.button-cancel {
+  padding: 8px 16px;
+  background-color: #016064;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.button-cancel:hover {
+  cursor: pointer;
+  background-color: #013e41;
+}
+
+.button-edit {
+  padding: 8px 16px;
+  background-color: #016064;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.button-edit:hover {
+  cursor: pointer;
+  background-color: #013e41;
+}
+
+.button-delete {
+  padding: 8px 16px;
+  background-color: #016064;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.button-delete:hover {
+  cursor: pointer;
+  background-color: #013e41;
+}
+
+@media screen and (max-width: 450px){
+  .data-wrap{
+    width: 320px;
+  }
+}
