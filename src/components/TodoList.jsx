@@ -15,7 +15,7 @@ function TodoList() {
     e.preventDefault();
 
     let newTodo = {
-      id: Date.now(), // Generate a unique ID for the new todo
+      id: Date.now(),
       title: addTodoInput,
       isDone: false,
     };
