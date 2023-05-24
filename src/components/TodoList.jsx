@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addTodo, deleteTodo, updateTodo } from "../redux/reducers/todoReducer";
+import { addTodo, deleteTodo, updateTodo } from "../redux/actions/todoAction";
 import "../Todolist.css";
 
 function TodoList() {
