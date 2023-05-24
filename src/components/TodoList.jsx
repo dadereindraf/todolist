@@ -95,7 +95,7 @@ function TodoList() {
               }`}
               onClick={() => handleFilterChange("complete")}
             >
-              Complete
+              Completed
             </button>
           </div>
 
